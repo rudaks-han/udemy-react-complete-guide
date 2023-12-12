@@ -5,7 +5,7 @@ function App() {
   const [parentAge, setParentAge] = useState(0);
 
   const incrementParentAge = () => {
-    setParentAge(parentAge + 1);
+      setParentAge(parentAge + 1);
   }
 
   console.log('부모 컴포넌트 변경');
