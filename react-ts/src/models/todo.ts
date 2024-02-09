@@ -1,12 +1,13 @@
+import { text } from "node:stream/consumers";
 
 class Todo {
-    id: string;
-    text: string;
+  id: string;
+  text: string;
 
-    constructor(todoText: string) {
-        this.text = todoText;
-        this.id = new Date().toISOString();
-    }
+  constructor(todoText: string) {
+    this.id = new Date().toISOString();
+    this.text = todoText;
+  }
 }
 
 export default Todo;
